@@ -13,7 +13,7 @@ const vote = {
         { id: "choice_2", title: "Bad", count:12 },
         { id: "choice_3", title: "Not sure yet", count:1 }
     ]
-}
+};
 
 ReactDOM.render(
     <App>
