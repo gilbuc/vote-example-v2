@@ -28,8 +28,10 @@ const allVotes = [
     }
 ];
 ReactDOM.render(
-    <App>
-        <VoteController initialVotes={allVotes}/>
-    </App>,
+    <React.StrictMode>
+        <App>
+            <VoteController initialVotes={allVotes}/>
+        </App>
+    </React.StrictMode>,
     document.getElementById("root")
 );

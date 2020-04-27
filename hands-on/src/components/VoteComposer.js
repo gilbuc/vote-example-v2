@@ -51,7 +51,7 @@ export default function VoteComposer({ onSave, onDeactivate }) {
                         autoFocus
                         name={"title"}
                         type={"text"}
-                        placeholder={"What do you want know?"}
+                        placeholder={"What do you want to know?"}
                         value={voteTitle}
                         onChange={e => setVoteTitle(e.target.value)}
                     />
